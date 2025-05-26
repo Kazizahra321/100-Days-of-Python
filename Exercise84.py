@@ -15,17 +15,17 @@
 
 # Pattern Syntax (Meta Characters)
 # . : Any character except newline
-# ^ :  
-# $ :
-# * :
-# + :
-# ? :
-# {n} :
-# [] :
-# ` :
-# \d :
-# \w :
-# \s :
+# ^ : Any character at the start of a string
+# $ : Any character at the end of a string
+# * : Zero or more occurrences of the preceding character
+# + : One or more occurrences of the preceding character
+# ? : Zero or one occurrence of the preceding character
+# {n} : Exactly n occurrences of the preceding character
+# [] : A set of characters to match
+# ` : Escape character to treat special characters as literals
+# \d : Any digit (equivalent to [0-9])
+# \w : Any alphanumeric character (equivalent to [a-zA-Z0-9_])
+# \s : Any whitespace character (space, tab, newline)
 
 # Examples
 
