@@ -1,6 +1,5 @@
 # Exercise 98 : News api
 
-
 import requests
 
 def NewsFromBBC():
@@ -18,7 +17,7 @@ def NewsFromBBC():
     open_bbc_page = res.json()
     article = open_bbc_page["articles"]
     results = []
-    
+
     for ar in article:
         results.append(ar["title"])
     for i in range(len(results)):
